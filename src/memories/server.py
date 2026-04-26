@@ -58,9 +58,3 @@ def query_memories(query:str):
     ]
 
     return {"contents":contents_result}
-
-def main():
-    mcp.run(transport="stdio")
-
-if __name__ == "__main__":
-    main()

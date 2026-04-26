@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-memories = "memories.server:main"
+memories = "memories.__main__:main"
 
 [build-system]
 requires = ["setuptools"]

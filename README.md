@@ -1,7 +1,8 @@
 Install the code by putting the below command
 
 ```json
-"mcpServers": {
+{
+  "mcpServers": {
     "Query_Save_Memories":{
      "command": "uvx",
       "args": [
@@ -10,4 +11,5 @@ Install the code by putting the below command
         "memories"
       ]
     }
+  }
 }
