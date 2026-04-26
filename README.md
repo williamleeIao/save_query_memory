@@ -13,3 +13,20 @@ Install the code by putting the below command
     }
   }
 }
+
+or 
+
+#download from github
+{
+  "mcpServers": {
+   "Query_Save_Memory":{
+     "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\Users\\{your_folder_location}\\Documents\\PythonProject\\MCP_Memories",
+        "run",
+        "memories"
+      ]
+    }
+  }
+}
